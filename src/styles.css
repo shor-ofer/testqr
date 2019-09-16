@@ -2,3 +2,12 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.qrtest {
+  display: inline-block;
+  transition: opacity 1s;
+  opacity: 1;
+  border: rgb(196, 193, 243) 10px solid;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
