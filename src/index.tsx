@@ -8,11 +8,13 @@ function App() {
   return (
     <div className="App">
       <div className="qrtest">
-        <QRCode
-          size="80"
-          includeMargin="true"
-          value="https://shorofer.wixsite.com/xmmos"
-        />
+        <a href="https://shorofer.wixsite.com/xmmos">
+          <QRCode
+            size="80"
+            includeMargin="true"
+            value="https://shorofer.wixsite.com/xmmos"
+          />
+        </a>
       </div>
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
