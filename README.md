@@ -1,2 +1,0 @@
-# testqr
-Created with CodeSandbox
