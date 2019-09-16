@@ -7,11 +7,13 @@
   display: inline-block;
   transition: all 0.5s;
   opacity: 1;
+  margin: 20px 20px 20px 20px;
   border: rgb(196, 193, 243) 10px solid;
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .qrtest:hover {
-  border: rgb(236, 13, 106) 10px solid;
+  transform: scale(1.05);
+  border: rgb(41, 196, 100) 10px solid;
 }

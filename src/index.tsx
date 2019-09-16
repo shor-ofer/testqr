@@ -4,16 +4,13 @@ var QRCode = require("qrcode.react");
 
 import "./styles.css";
 
+var myurl = "https://shorofer.wixsite.com/xmmos";
 function App() {
   return (
     <div className="App">
       <div className="qrtest">
-        <a href="https://shorofer.wixsite.com/xmmos">
-          <QRCode
-            size="80"
-            includeMargin="true"
-            value="https://shorofer.wixsite.com/xmmos"
-          />
+        <a href={myurl}>
+          <QRCode size="120" includeMargin="true" value={myurl} />
         </a>
       </div>
       <h1>Hello CodeSandbox</h1>
